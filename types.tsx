@@ -5,18 +5,15 @@
 
 export type RootStackParamList = {
   Root: undefined;
+  ShowDescription: { show: show };
+  QRCodeScanner: { show: show };
   NotFound: undefined;
 };
 
-export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
-};
-
-export type TabOneParamList = {
-  TabOneScreen: undefined;
-};
-
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type show = {
+  genre: string[];
+  releaseYear: string;
+  title: string;
+  rating: number;
+  image: string;
 };
