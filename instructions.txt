@@ -1,0 +1,11 @@
+Setup instructions:
+
+<-- option 1 - development -->
+1. clone the repo to your machine
+2. in the terminal type: yarn
+3. in the terminal run: npm start
+
+<-- option 2 - manually installing APK -->
+1. download the APK from: https://drive.google.com/file/d/1qflHtTB42hYOD3pe8jPDabOYEPEsglsV/view?usp=sharing
+2. ignore the warnings and continue the installation
+3. open the application
